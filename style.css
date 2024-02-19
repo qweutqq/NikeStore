@@ -78,7 +78,8 @@ header{
     height: 80vh;
     background-repeat:no-repeat ;
     background-size: cover;
-
+    background-position: center;
+    background-size: auto;
 }
 
 .header-title{
@@ -101,8 +102,8 @@ header{
 
 .header{
     position: absolute;
-    top: 250px;
-    left: 200px;
+    top: 20%;
+    left: 15%;
 }
 
 
@@ -322,5 +323,35 @@ textarea, button{
 }
 
 @media (max-width:460px){
+    .header{
+        top: 30%;
+        left: 20%;
+    }
 
+    .mini-cards{
+        margin-left: 70px;
+        margin-right: auto;
+    }
+
+    .container2{
+        margin: 0;
+    }
+
+    .comment-holder{
+        width: 50%;
+        margin-left: 30px;
+    }
+
+    .footer-menu-holder{
+        margin-right: 30px;
+    }
+
+    .footer-nav-item{
+        font-size: 18px;
+    }
+
+    .big-card{
+        margin-top: -50px;
+    }
+    
 }
